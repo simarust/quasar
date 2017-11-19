@@ -31,6 +31,9 @@ export default {
     else if (icon.startsWith('ion-') || icon.startsWith('icon-')) {
       name = `${icon}`
     }
+    else if (icon.startsWith('typcn-')) {
+      name = `typcn ${icon}`
+    }
     else if (icon.startsWith('mdi-')) {
       name = `mdi ${icon}`
     }
